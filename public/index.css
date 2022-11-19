@@ -1,0 +1,82 @@
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.search-bar,
+.dettaglio-pokemon,
+.pokedex-title {
+  margin-bottom: 3rem;
+}
+
+.error {
+  display: block;
+  margin-bottom: 1rem;
+  color: #ff0000;
+}
+
+.informazioni {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#pokemon-sprite {
+  width: 30rem;
+}
+
+.article-body {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.button-images {
+  display: block;
+}
+
+.stat-name {
+  font-weight: bold;
+}
+
+.bar {
+  min-width: 10rem;
+  background-color: #eeeeee;
+  border-radius: 0.4rem;
+}
+
+.blu-bar {
+  height: 0.6rem;
+  border-radius: 0.4rem;
+  background-color: #0174fe;
+}
+
+.stat-name,
+.bar {
+  margin-bottom: 0.6rem;
+}
+
+.box-pokemon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.card {
+  width: 35%;
+}
+
+.card-name {
+  text-align: center;
+}
+
+.card-img {
+  display: block;
+  margin: auto;
+}
+
+.card-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
