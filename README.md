@@ -1,3 +1,6 @@
+## Netlify link
+https://cheerful-empanada-3dd948.netlify.app/
+
 # Pokedex app che consente di cercare pokemon e creare un pokedex basato su PokeAPI
 
 ## 1. Search Bar
